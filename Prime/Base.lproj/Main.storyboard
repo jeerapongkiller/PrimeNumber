@@ -26,21 +26,21 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Check Prime Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAW-RI-DzP">
-                                <rect key="frame" x="23.666666666666657" y="237" width="367" height="36"/>
+                                <rect key="frame" x="23.666666666666657" y="232" width="367" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="29"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="shadowColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.png" translatesAutoresizingMaskIntoConstraints="NO" id="cts-e8-S5U">
-                                <rect key="frame" x="108" y="20" width="198" height="184"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled3.png" translatesAutoresizingMaskIntoConstraints="NO" id="cts-e8-S5U">
+                                <rect key="frame" x="155" y="20" width="104" height="179"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="184" id="Co7-u1-3w3"/>
-                                    <constraint firstAttribute="width" constant="198" id="kWr-5a-PXF"/>
+                                    <constraint firstAttribute="width" constant="104" id="bHm-qH-OBB"/>
+                                    <constraint firstAttribute="height" constant="179" id="zDu-y5-PZ3"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prime Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i0d-eU-QW8">
-                                <rect key="frame" x="24" y="314.66666666666669" width="236" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prime Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i0d-eU-QW8">
+                                <rect key="frame" x="24" y="309.66666666666669" width="236" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="236" id="kbZ-iO-Wex"/>
                                     <constraint firstAttribute="height" constant="30" id="nI3-ae-6BW"/>
@@ -49,8 +49,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Od-ya-nWB">
-                                <rect key="frame" x="291" y="314.66666666666669" width="100" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Od-ya-nWB">
+                                <rect key="frame" x="291" y="309.66666666666669" width="100" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="IY9-Xl-Nqn"/>
@@ -61,7 +61,7 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Buttom For Check" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzB-WO-Cyn">
-                                <rect key="frame" x="20" y="392" width="374" height="21"/>
+                                <rect key="frame" x="20" y="387" width="374" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -71,6 +71,7 @@
                         <color key="tintColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="dzB-WO-Cyn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CNd-1u-tX7"/>
+                            <constraint firstItem="cts-e8-S5U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IVl-1G-pGR"/>
                             <constraint firstItem="9Od-ya-nWB" firstAttribute="leading" secondItem="i0d-eU-QW8" secondAttribute="trailing" constant="31" id="Iy5-Q9-n1r"/>
                             <constraint firstItem="dzB-WO-Cyn" firstAttribute="top" secondItem="i0d-eU-QW8" secondAttribute="bottom" constant="47.329999999999998" id="KyS-Qs-BPs"/>
                             <constraint firstItem="cts-e8-S5U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ROC-bu-8RY"/>
@@ -87,6 +88,7 @@
                             <constraint firstItem="dzB-WO-Cyn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jIo-b7-pfe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EFB-Fy-Njg" secondAttribute="bottom" id="lvZ-23-8ve"/>
                             <constraint firstItem="cts-e8-S5U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="oFo-5w-XWp"/>
+                            <constraint firstItem="i0d-eU-QW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="qcO-ND-Ukf"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -96,7 +98,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="4.png" width="1023" height="933"/>
         <image name="PrimeNumber.jpg" width="2048" height="1536"/>
+        <image name="Untitled3.png" width="104" height="179"/>
     </resources>
 </document>
