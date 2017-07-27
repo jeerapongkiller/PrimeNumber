@@ -9,6 +9,47 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Impeicit
+    let strAlerHaveSpace = "Please Fill Number"
+    let strAlerArtical = "This is Artical Please Fill Number Only"
+    let strAlerNumber = "This is Number"
+    
+    
+    
+    
+    @IBOutlet weak var numberTextField: UITextField!
+    @IBOutlet weak var resultLable: UILabel!
+    @IBAction func checkButton(_ sender: Any) {
+        
+        let strNumberFromTextFeild = numberTextField.text!
+        print("Number ==> \(strNumberFromTextFeild)")
+        
+        //Check Space
+        if strNumberFromTextFeild != ""{
+            
+            print("No Space")
+            
+            //Check Number or Artical
+            if let intNumberFromTextFeild = Int(strNumberFromTextFeild) {
+                print("This is Number")
+                resultLable.text = strAlerNumber
+            }else{
+            
+                print("This Arical")
+                resultLable.text = strAlerArtical
+            
+            }
+            
+        }else{
+            resultLable.text = strAlerHaveSpace
+            print("Have Space")
+            
+        }// If1
+        
+    }   //Check Button
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

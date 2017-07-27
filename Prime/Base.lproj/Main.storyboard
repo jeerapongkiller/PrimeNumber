@@ -58,7 +58,10 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="tintColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Check"/>
+                                <connections>
+                                    <action selector="checkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBD-K2-XNr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Buttom For Check" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzB-WO-Cyn">
                                 <rect key="frame" x="20" y="387" width="374" height="21"/>
@@ -91,6 +94,10 @@
                             <constraint firstItem="i0d-eU-QW8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="qcO-ND-Ukf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="i0d-eU-QW8" id="5mP-wY-BJf"/>
+                        <outlet property="resultLable" destination="dzB-WO-Cyn" id="k3Q-hW-kyC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
